@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 9 - Student Registration Form</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="studentregistrationform.css">
+</head>
+<body>
+    <div class="page-shell">
+        <nav class="page-nav">
+            <a href="../index.html">Home</a>
+            <a href="../experimentno2.html">Exp 2</a>
+            <a href="../Experimentno3.html">Exp 3</a>
+            <a href="../expeimentno4.html">Exp 4</a>
+            <a href="../experimentno5.html">Exp 5</a>
+            <a href="../experimentno6.html">Exp 6</a>
+            <a href="../experimentno7.html">Exp 7</a>
+            <a href="../experimentno8/table.html">Exp 8</a>
+            <a href="../exerimentno10/resume.html">Exp 10</a>
+        </nav>
+        <article class="page-content">
+            <div class="container">
+                <h2>Engineering Student Registration Form</h2>
+                <form>
+                    <div class="form-group">
+                        <label>Student ID:</label>
+                        <input type="text" name="studentid" placeholder="Enter Student ID" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Full Name:</label>
+                        <input type="text" name="fullname" placeholder="Enter full name" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Date of Birth:</label>
+                        <input type="date" name="dob" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Gender:</label>
+                        <div class="radio-group">
+                            <label><input type="radio" name="gender"> Male</label>
+                            <label><input type="radio" name="gender"> Female</label>
+                            <label><input type="radio" name="gender"> Other</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Year:</label>
+                        <select name="year">
+                            <option>--Select Year--</option>
+                            <option>First Year</option>
+                            <option>Second Year</option>
+                            <option>Third Year</option>
+                            <option>Last Year</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Department:</label>
+                        <select name="department">
+                            <option>--Select Department--</option>
+                            <option>Computer Engineering</option>
+                            <option>Mechanical Engineering</option>
+                            <option>Civil Engineering</option>
+                            <option>Electrical Engineering</option>
+                            <option>Electronics Engineering</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Division:</label>
+                        <select name="division">
+                            <option>--Select Division--</option>
+                            <option>A</option>
+                            <option>B</option>
+                            <option>C</option>
+                            <option>D</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Interests:</label>
+                        <div class="checkbox-group">
+                            <label><input type="checkbox"> Sports</label>
+                            <label><input type="checkbox"> Reading</label>
+                            <label><input type="checkbox"> Coding</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit">Register</button>
+                    </div>
+                </form>
+            </div>
+            <a class="back-link" href="../index.html">← Back to Home</a>
+        </article>
+    </div>
+</body>
+</html>
